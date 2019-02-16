@@ -15,6 +15,12 @@ import org.hibernate.annotations.GenericGenerator;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
+/**
+ * Entity Class To maintain the History of the User search.
+ * @author UmaShankar
+ * @since 14-Feb-2019
+ *
+ */
 @Entity
 public class History implements Serializable {
 

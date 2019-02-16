@@ -17,6 +17,12 @@ import com.us.wapp.model.WeatherInfo;
 import com.us.wapp.repository.IHistoryRepository;
 import com.us.wapp.repository.IUserRepository;
 
+/**
+ * Service class which is having all business logic related to the weather data.
+ * @author UmaShankar
+ * @since 14-Feb-2019
+ *
+ */
 @Service
 public class DataServiceImpl implements IDataService{
 	

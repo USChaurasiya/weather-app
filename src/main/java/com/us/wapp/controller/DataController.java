@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.us.wapp.model.History;
 import com.us.wapp.model.User;
 import com.us.wapp.model.WeatherInfo;
-import com.us.wapp.repository.IUserRepository;
 import com.us.wapp.service.IDataService;
 
 import io.swagger.annotations.ApiOperation;
@@ -24,8 +23,6 @@ import io.swagger.annotations.ApiOperation;
 @RestController
 @RequestMapping("/data")
 public class DataController {
-	@Autowired
-	private IUserRepository IUserRepository;
 	
 	@Autowired
 	private IDataService IDataService;

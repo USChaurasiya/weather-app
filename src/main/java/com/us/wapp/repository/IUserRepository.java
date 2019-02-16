@@ -7,6 +7,12 @@ import org.springframework.stereotype.Repository;
 
 import com.us.wapp.model.User;
 
+/**
+ * User Repository Interface extending JPA repository to perform User DB related Operation.
+ * @author UmaShankar
+ * @since 14-Feb-2019
+ *
+ */
 @Repository
 public interface IUserRepository extends JpaRepository<User, Integer> {
 

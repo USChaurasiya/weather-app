@@ -9,6 +9,11 @@ import org.springframework.stereotype.Repository;
 
 import com.us.wapp.model.History;
 
+/**
+ * @author UmaShankar
+ * @since 14-Feb-2019
+ *
+ */
 @Repository
 public interface IHistoryRepository extends JpaRepository<History,Integer> {
 
